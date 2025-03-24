@@ -1,0 +1,44 @@
+body  { 
+	text-align: center;
+}
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+	body {
+		background-color: red;
+	}
+
+	img {
+		max-width: 50%;
+	}
+
+	p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+	body {
+		background-color: green;
+	}
+
+	img {
+		max-width: 70%;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	body {
+		background-color: blue;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
